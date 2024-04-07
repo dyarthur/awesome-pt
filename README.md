@@ -2,11 +2,13 @@
 
 > A collection of awesome PT clients, tools and scripts.
 
-[Join Telegram Discussion](https://t.me/awesome_pt) | [中文TG讨论群](https://t.me/awesome_pt_cn)
+This project is stopped, looking for maintainers!
 
-PRs are very welcome!
+项目已停止更新, 寻找维护者!
 
-Note
+
+<details>
+  <summary>Annonations</summary>
 
 - ![chinese] Chinese language only
 - ![oss] Open Source Software
@@ -21,59 +23,8 @@ Note
 - TUI: Terminal User Interface
 - CLI: Command-Line Interface
 - Daemon: Runs as a background process
-
-## Table of Contents
-
-- [Community](#community)
-- [Sites](#sites)
-  - [Site Enhancement](#site-enhancement)
-- [BT](#bt)
-  - [BT Frontends](#bt-frontends)
-  - [BT Clients](#bt-clients)
-  - [BT RSS](#bt-rss)
-  - [BT IRC](#bt-irc)
-  - [BT Misc](#bt-misc)
-  - [Cross Seed Helpers](#cross-seed-helpers)
-  - [Add Torrent](#add-torrent)
-  - [Auto Remove](#auto-remove)
-  - [qBittorrent Tools](#qbittorrent-tools)
-- [Automation](#automation)
-- [Movie & TV](#movie--tv)
-  - [Video Automation](#video-automation)
-  - [Video Server](#video-server)
-  - [Video Streaming](#video-streaming)
-  - [Video Player](#video-player)
-  - [Video Subtitle](#video-subtitle)
-  - [Video Transcode](#video-transcode)
-- [Music](#music)
-  - [Music Automation](#music-automation)
-  - [Music Server](#music-server)
-  - [Music Transcode](#music-transcode)
-- [EBook](#ebook)
-  - [EBook Automation](#ebook-automation)
-  - [EBook Manager](#ebook-manager)
-- [Upload](#upload)
-  - [Upload Semi-Auto](#upload-semi-auto)
-  - [Upload Bot](#upload-bot)
-  - [Upload Helpers](#upload-helpers)
-- [Scripts For Seedbox](#scripts-for-seedbox)
-- [CLI Tools](#cli-tools)
-- [Homelab](#homelab)
-- [Development](#development)
-  - [Starter Templates](#starter-templates)
-  - [Tracker Codebase](#tracker-codebase)
-  - [API](#api)
-  - [Libraries](#libraries)
-    - [JavaScript](#javascript)
-
-## Community
-
-| Name |
-|------|
-| [Reddit](https://www.reddit.com/r/trackers) |
-| [PT风向旗](https://t.me/Ptfxq) ![chinese] |
-| [PT官方公告](https://t.me/Ptggb) ![chinese] |
-| [PTHub](https://t.me/PT_hub) ![chinese] |
+- Status: Active, Dead. Zero commit in a year means Dead
+</details>
 
 ## Sites
 
@@ -81,9 +32,11 @@ Note
 |------|
 | [Gentoo Wiki](https://wiki.installgentoo.com/wiki/Private_trackers#What_are_the_best_private_trackers.3F) |
 | [Private Tracker List](https://hdvinnie.github.io/Private-Trackers-Spreadsheet) |
+| [Reddit](https://www.reddit.com/r/trackers/comments/tw4ji0/tracker_faq_and_recommended_sites/) |
 | [PT Analytics](https://api.rhilip.info/ptanalytics.html) |
-| [Tracker Status](https://trackerstatus.info) |
 | [OpenTrackers](https://opentrackers.org/tracker-list) |
+| [PT站点汇总](https://github.com/sabersalv/awesome-pt/raw/main/assets/PT站点汇总.png) ![chinese] |
+| [Is Site Down?](https://hdvinnie.github.io/TrackerHub/) | 
 
 ### Site Enhancement
 
@@ -95,6 +48,16 @@ Note
 | [BKS Upload Game Helper](https://greasyfork.org/en/scripts/406869-brokenstones-upload-game-helper) |
 | [WhuBBCode+](https://greasyfork.org/en/scripts/380518-whutbbcode) | Add BBCode toolbar |
 | [EasyCompare](https://github.com/N3xusHD/EasyCompare) |
+
+## Community
+
+| Name |
+|------|
+| [Reddit Trackers](https://www.reddit.com/r/trackers) |
+| [TorrentFreak](https://torrentfreak.com) |
+| [PT风向旗](https://t.me/Ptfxq) ![chinese] |
+| [PT官方公告](https://t.me/Ptggb) ![chinese] |
+| [PTHub](https://t.me/PT_hub) ![chinese] |
 
 ## BT
 
@@ -118,24 +81,28 @@ Note
 | [Deluge](https://github.com/deluge-torrent/deluge) | Daemon/GUI/Web | Python |
 | [ChisBread/transmission_skip_patch](https://github.com/ChisBread/transmission_skip_patch) ![chinese] | | | Fast hash checking |  
 
-### BT RSS
-
-| Name |
-|------|
-| [Flexget](https://github.com/Flexget/Flexget) |
-| [Show RSS](https://showrss.info) |
-| [T RSS](https://github.com/capric98/t-rss) |
-| [Fish RSS](https://github.com/qfishpear/fishrss_simple) |
-| [Flexget NexusPHP](https://github.com/Juszoe/flexget-nexusphp) |
-| [Promotion](https://github.com/Alvinnfly/promotion) |
-
-### BT IRC
+### BT AutoDownload
 
 | Name | Description |
 |------|-------------|
-| [Autodl Irssi](https://autodl-community.github.io/autodl-irssi/) | Auto Download |
-| [Irssi](https://github.com/irssi/irssi) | IRC Client, TUI |
-| [Thelounge](https://github.com/thelounge/thelounge) | IRC Client, WEB |
+| [Flexget](https://github.com/Flexget/Flexget) | RSS |
+| [Show RSS](https://showrss.info) | RSS |
+| [T RSS](https://github.com/capric98/t-rss) ![chinese] | RSS |
+| [Fish RSS](https://github.com/qfishpear/fishrss_simple) ![chinese] | RSS |
+| [Flexget NexusPHP](https://github.com/Juszoe/flexget-nexusphp) ![chinese] | RSS, NexusPHP |
+| [Promotion](https://github.com/Alvinnfly/promotion) | RSS, NexusPHP |
+| [Autobrr](https://github.com/autobrr/autobrr) | IRC, GUI |
+| [Autodl Irssi](https://github.com/autodl-community/autodl-irssi) | IRC, CLI |
+| [Trackarr](https://gitlab.com/cloudb0x/trackarr) | IRC, CLI |
+
+### BT AddTorrent
+
+| Name |
+|------|
+| [PT Plugin Plus](https://github.com/ronggang/PT-Plugin-Plus) ![chinese] |
+| [Remote Torrent Adder](https://github.com/bogenpirat/remote-torrent-adder) |
+| [Electorrent](https://github.com/tympanix/Electorrent) |
+| [Torrent Control](https://github.com/Mika-/torrent-control) |
 
 ### BT Misc
 
@@ -146,24 +113,19 @@ Note
 
 ### Cross Seed Helpers
 
+- [Top 1000 torrents for seeding](http://pt.zwhid.online/top1000): ![chinese]
+
 | Name | Interface | Supported BT Clients |
 |------|-----------|----------------------|
-| [IYUU Plus](https://github.com/ledccn/IYUUPlus) | Web | ![transmission] ![qbittorrent] |
-| [IYUU GUI](https://github.com/sabersalv/IYUU-GUI) | GUI | ![flood] ![transmission] ![qbittorrent] ![deluge] |
-| [IYUU Auto Reseed](https://gitee.com/ledc/IYUUAutoReseed) | CLI |
+| [IYUU Plus](https://github.com/ledccn/IYUUPlus) ![chinese] | Web | ![transmission] ![qbittorrent] |
+| [IYUU GUI](https://github.com/sabersalv/IYUU-GUI) ![chinese] | GUI | ![flood] ![transmission] ![qbittorrent] ![deluge] |
+| [IYUU Auto Reseed](https://gitee.com/ledc/IYUUAutoReseed) ![chinese] | CLI |
+| [PT Plugin Plus](https://github.com/ronggang/PT-Plugin-Plus) ![chinese] |
 | [tongyifan/Reseed](https://github.com/tongyifan/Reseed-backend) |
-| [PT Plugin Plus](https://github.com/ronggang/PT-Plugin-Plus) |
 | [Cross Seed AutoDL](https://github.com/BC44/Cross-Seed-AutoDL) | CLI |
 | [mmgoodnow/cross-seed](https://github.com/mmgoodnow/cross-seed) | CLI |
+| [Autotorrent2](https://github.com/JohnDoee/autotorrent2) | CLI |
 
-### Add Torrent
-
-| Name |
-|------|
-| [PT Plugin Plus](https://github.com/ronggang/PT-Plugin-Plus) |
-| [Remote Torrent Adder](https://github.com/bogenpirat/remote-torrent-adder) |
-| [Electorrent](https://github.com/tympanix/Electorrent) |
-| [Torrent Control](https://github.com/Mika-/torrent-control) |
 
 ### Auto Remove
 
@@ -180,16 +142,19 @@ Note
 | [qbittools](https://gitlab.com/AlexKM/qbittools) | CLI |
 | [qBittorrent Tracker Hound](https://github.com/JakeWharton/qbt-tracker-hound) | CLI |
 | [qBt Migrate](https://github.com/jslay88/qbt_migrate) | CLI |
+| [Grafana Dashboard for qBittorrent](https://github.com/caseyscarborough/qbittorrent-grafana-dashboard) | |
 
 ## Automation
 
 | Name | Features |
 |------|----------|
-| [PT Plugin Plus](https://github.com/ronggang/PT-Plugin-Plus) | Aggregate Indexer, Account Stats, Add Torrent, Bulk Download, Cross Seed |
+| [PT Plugin Plus](https://github.com/ronggang/PT-Plugin-Plus) ![chinese] | Aggregate Indexer, Account Stats, Add Torrent, Bulk Download, Cross Seed |
 | [Jackett](https://github.com/Jackett/Jackett) | Aggregate Indexer |
 | [Prowlarr](https://github.com/Prowlarr/Prowlarr) | Aggregate Indexer |
 | [Cardigann](https://github.com/cardigann/cardigann) | Aggregate Indexer |
-| [PT Sign-in](https://github.com/lhllhx/PT_signin) |
+| [PT Sign-in](https://github.com/lhllhx/PT_signin) ![chinese] |
+| [Vertex](https://github.com/vertex-app/vertex) ![chinese] |
+| [PT小助手](https://hub.docker.com/r/crazyq/pt_helper) ![chinese] |
 
 ## Movie & TV
 
@@ -202,16 +167,17 @@ Note
 | [Nefarious](https://github.com/lardbit/nefarious) | Movie & TV | like Sonarr |
 | [Bobarr](https://github.com/iam4x/bobarr) | Movie & TV | like Sonarr |
 | [Medusa](https://pymedusa.com) | TV |
-| [tinyMediaManager](https://www.tinymediamanager.org) | Movie & TV | Metadata |
+| [tinyMediaManager](https://gitlab.com/tinyMediaManager/tinyMediaManager) | Movie & TV | Metadata |
 | [Filebot](https://www.filebot.net) | Movie & TV | Rename |
 | [SickRage](https://www.sickrage.ca) | TV |
-| [Couchpotato](https://couchpota.to) | Movie |
+| [Couchpotato](https://github.com/CouchPotato/CouchPotatoServer) | Movie |
 | [DuckieTV](https://github.com/SchizoDuckie/DuckieTV) | TV |
 
 ### Video Server
 
 | Name |
 |------|
+| [Dim](https://github.com/Dusk-Labs/dim) ![oss] |
 | [Jellyfin](https://github.com/jellyfin/jellyfin) ![oss] |
 | [Emby](https://emby.media) |
 | [Plex](https://www.plex.tv) |
@@ -228,26 +194,27 @@ Note
 | Name | Platform |
 |------|----------|
 | [IINA](https://github.com/iina/iina) ![oss] | macOS |
-| [VLC](https://www.videolan.org/) ![oss] | macOS/Linux/Windows |
+| [VLC](https://github.com/videolan/vlc) ![oss] | macOS/Linux/Windows |
 | [PotPlayer](https://potplayer.daum.net) | Windows |
 | [MPC BE](https://sourceforge.net/projects/mpcbe) ![oss] | Windows |
 | [Infuse](https://firecore.com/infuse) | iOS/macOS |
 | [MX Player](https://www.mxplayer.in/download-apps) | iOS/Android |
 | [MrMc](https://github.com/MrMC/mrmc) ![oss] | iOS |
 | [nPlayer](https://nplayer.com/) | Android |
-| [Kodi](https://github.com/xbmc) ![oss] |
+| [Kodi](https://github.com/xbmc/xbmc) ![oss] |
 
 ### Video Subtitle
 
-| Name | Description |
-|------|-------------|
-| [Bazarr](https://github.com/morpheus65535/bazarr) | Automation, Like Sonarr
-| [OpenSubtitles](https://www.opensubtitles.org) |
-| [kitsunekko](https://kitsunekko.net) | Anime subtitles in English, Japanese, Chinese and Korean |
-| [SubHD](https://subhd.tv) ![chinese] |
-| [字幕库](https://zmk.pw) ![chinese] |
-| [伪射手网](https://assrt.net) ![chinese] |
-| [A4K](https://www.a4k.net) ![chinese] |
+| Name | Description | Supported Sites | Supported Apps |
+|------|-------------|-----------------|----------------|
+| [Bazarr](https://github.com/morpheus65535/bazarr) | Automation |
+| [ChineseSubFinder](https://github.com/allanpk716/ChineseSubFinder) ![chinese] | Automation | zimuku, subhd, shooter, xunlei | Jellyfin, Emby, Plex, Sonarr, Radarr, TMM |
+| [OpenSubtitles](https://www.opensubtitles.org) | Website |
+| [kitsunekko](https://kitsunekko.net) | Website, Anime |
+| [SubHD](https://subhd.tv) ![chinese] | Website |
+| [字幕库](https://zmk.pw) ![chinese] | Website |
+| [伪射手网](https://assrt.net) ![chinese] | Website |
+| [A4K](https://www.a4k.net) ![chinese] | Website |
 
 ### Video Transcode
 
@@ -277,7 +244,7 @@ Note
 | [Airsonic Advanced](https://github.com/airsonic-advanced/airsonic-advanced) |
 | [mStream](https://github.com/IrosTheBeggar/mStream) |
 | [Black Candy](https://github.com/aidewoode/black_candy) |
-| [Music Player Deamon](https://www.musicpd.org) |
+| [Music Player Deamon](https://github.com/MusicPlayerDaemon/MPD) |
 | [Compactd](https://github.com/compactd/compactd) |
 
 ### Music Transcode
@@ -317,25 +284,33 @@ Note
 
 | Name | Description |
 |------|-------------|
+| [Upload Assistant](https://github.com/L4GSP1KE/Upload-Assistant) | BLU/BHD/Aither/THR/STC/R4E/STT/HP |
+| [GG Bot Upload Assistan](https://gitlab.com/NoobMaster669/gg-bot-upload-assistant) | CLI, UNIT3D/Gazelle/.. |
+| [xpbot](https://github.com/ryelogheat/xpbot) | CLI, UNIT3D |
 | [PT Autoseed](https://github.com/Rhilip/Pt-Autoseed) |
 | [SJTU Autoseed](https://github.com/Rhilip/SJTU-Autoseed) |
 | [Rachpt AutoSeed](https://github.com/rachpt/AutoSeed) |
 | [Alexandria](https://github.com/pthcode/alexandria) | Ebook |
-| [TJUPT Anime Autoseed](https://github.com/tongyifan/TJUPT-Anime-Autoseed) | TJUP, Anime |
+| [TJUPT Anime Autoseed](https://github.com/tongyifan/TJUPT-Anime-Autoseed) | TJUP |
 | [GGN2PTer](https://github.com/scatking/ggn2pter) | GGN -> PTer |
-| [JPS2SM](https://git.sugoimusic.me/Sugoimusic/jps2sm) | JPS -> SM |
+| [JPS2SM](https://github.com/damonjavert/jps2sm) | JPS -> SM |
 | [PTP Uploader](https://github.com/bobbintb/PtpUploader) | PTP |
 | [AB Fetcher](https://github.com/anniemaybytes/fetcher) | AB |
-| [GazelleSync](https://github.com/soleil0-0/GazelleSync) | RED, OPS, NWCD, Dolphin |
-| [RedCurry](https://redacted.ch/forums.php?action=viewthread&threadid=45310&postid=904390#post904390) | RED, OPS, NWCD, Dolphin (CLI) |
+| [GazelleSync](https://github.com/soleil0-0/GazelleSync) | RED/OPS/NWCD/DIC  |
+| [RedCurry](https://redacted.ch/forums.php?action=viewthread&threadid=45310&postid=904390#post904390) | CLI, RED/OPS/NWCD/DIC/SM  |
+| [smoked-salmon](https://github.com/ligh7s/smoked-salmon) | CLI, RED |
 
-### Upload Helpers
+### Upload Assistant
 
 | Name | Description |
 |------|-------------|
 | [PT Gen ![chinese]](https://github.com/Rhilip/pt-gen-cfworker) | Description Generator |
 | [Image Host Helper](https://greasyfork.org/en/scripts/401743-image-host-helper) |
 | [RED/OPS Upload Assistant](https://greasyfork.org/en/scripts/389583-red-ops-upload-assistant) |
+| [upsies](https://github.com/plotski/upsies) | Metainfo, Screenshot, Torrent |
+| [SmartHash](https://github.com/spiritualized/smarthash) | CLI, TorrentFile, Screenshot, Mediainfo |
+| [PT-Factory](https://github.com/Tohrusky/PT-Factory) ![chinese] | CLI, Mediainfo, Screenshot, Description |
+| [CRT Assistant](https://gitlab.com/starshiners/crtassistant) | CLI, TorrentFile, Screenshot, Description |
 
 ## Scripts for Seedbox
 
@@ -350,23 +325,33 @@ Note
 
 | Name | Description |
 |------|-------------|
-| [transmission-cli](https://man.archlinux.org/man/transmission-create.1.en) |
+| [torrenttools](https://github.com/fbdtemme/torrenttools) | Create, inspect, modify torrent file |
+| [transmission-cli](https://man.archlinux.org/man/transmission-create.1.en) | Create, inspect, modify torrent file |
+| [mktorrent](https://github.com/pobrn/mktorrent) | Create torrent file |
+| [torf-cli](https://github.com/rndusr/torf-cli) | Create, inspect, modify torrent file |
 | [mediainfo](https://github.com/MediaArea/MediaInfo) |
 | [bdinfo](https://github.com/UniqProject/BDInfo) |
-| [mktorrent](https://github.com/pobrn/mktorrent) | Create torrent file |
 | [PyroCore](https://github.com/pyroscope/pyrocore) |
-| [torf-cli](https://github.com/rndusr/torf-cli) |
 | [anacrolix/torrent](https://github.com/anacrolix/torrent) |
+| [PTMuxer](https://github.com/TMD20/PTMuxer) | create remux |
+
+## IRC
+
+| Name | Description |
+|------|-------------|
+| [Irssi](https://github.com/irssi/irssi) | IRC Client, TUI |
+| [Thelounge](https://github.com/thelounge/thelounge) | IRC Client, WEB |
 
 ## Homelab
 
 | Name | Description |
 |------|-------------|
-| [Proxmox VE](https://pve.proxmox.com/wiki/Main_Page) | Virtualization |
-| [Docker](https://www.docker.com/) | Virtualization |
-| [Treafik](https://traefik.io/traefik) | Application proxy |
+| [Proxmox VE](https://github.com/proxmox) | Virtualization |
+| [Docker](https://github.com/docker) | Virtualization |
+| [Treafik](https://github.com/traefik/traefik) | Application proxy |
 | [Let's Encypt](https://letsencrypt.org) | Free SSL certification |
 | [Organizr](https://github.com/causefx/Organizr) | Services organizer |
+| [NasTools](https://github.com/jxxghp/nas-tools) ![chinese] | All-in-one docker template |
 
 # Development
 
@@ -377,15 +362,14 @@ Note
 
 ## Starter Templates
 
-| Name | For | Features |
+| Name | For | Stack |
 |------|-----|----------|
-| [sabersalv/template-userscript](https://github.com/sabersalv/template-userscript) | UserScript | Typescript + Esbuild + Preact/JSX + Emotion + SVG loader + Prettier + Eslint + fetch polyfill |
+| [sabersalv/template-userscript](https://github.com/sabersalv/template-userscript) | UserScript | Esbuild, Typescript, JSX, Emotion, SVG loader, Prettier, Eslint, fetch polyfill |
+| [cvzi/rollup-userscript-template](https://github.com/cvzi/rollup-userscript-template) | Userscript | Rollup, Typescript, JSX |
 
 ## Tracker Codebase
 
-| Name |
-|------|
-| [Torrent-Tracker-Platforms](https://github.com/HDVinnie/Torrent-Tracker-Platforms) |
+> See [Torrent-Tracker-Platforms](https://github.com/HDVinnie/Torrent-Tracker-Platforms)
 
 ## API
 
@@ -394,7 +378,7 @@ Note
 | [TMDB API](https://developers.themoviedb.org) |
 | [OMDB API](http://www.omdbapi.com) |
 | [IMDB API](https://developer.imdb.com) |
-| Douban Frodo API | [link1](https://github.com/ronggang/PT-Plugin-Plus/issues/584) [link2](https://github.com/zhanghai/Douya/issues/99) |
+| Douban Frodo API ![chinese] | [link1](https://github.com/ronggang/PT-Plugin-Plus/issues/584) [link2](https://github.com/zhanghai/Douya/issues/99) |
 
 ## Libraries
 
